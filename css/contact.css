@@ -1,0 +1,102 @@
+.contact-section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.contact-title {
+    font-family: var(--poppins);
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--bg-blue-color);
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    font-size: 1.15rem;
+    color: var(--color-text-dark);
+    margin-bottom: 40px;
+    line-height: 1.5;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Lien Email */
+.email-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--color-text-dark);
+    text-decoration: none;
+    margin-bottom: 50px;
+    padding: 10px 0;
+    border-bottom: 2px dashed #ccc;
+    transition: color 0.3s;
+}
+
+.email-link i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #777;
+}
+
+.email-link:hover {
+    color: var(--bg-blue-color);
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-btn i {
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+
+.social-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-facebook {
+    background-color: #4267B2;
+}
+
+.btn-instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.btn-whatsapp {
+    background-color: var(--btn-green-color); 
+}
+
+@media (max-width: 600px) {
+    .contact-title {
+        font-size: 2.5rem;
+    }
+    .contact-description {
+        font-size: 1rem;
+    }
+    .social-btn {
+        width: 90%;
+    }
+}

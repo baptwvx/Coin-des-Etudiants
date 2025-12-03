@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'); 
+
+@import url('global.css');
+@import url('sections/header.css');
+@import url('sections/main.css'); 
+@import url('sections/footer.css'); 
+
+
+:root{
+
+    --poppins: "Poppins", sans-serif;
+    --inter: "Inter", sans-serif;
+
+    --color-text-dark: #404B5C;
+    --color-primary: #000000; 
+    --color-secondary: #FFFFFF; 
+    --btn-green-color: #2CA84E; 
+    --bg-blue-color: #1C8BCC; 
+
+    --color-hero-gradient-start: #f5f8f8; 
+    --color-hero-gradient-end: #e6eded; 
+    --color-light-grey-box: #f1f3f6;
+    --color-footer-bg: #F7F8FA; 
+
+    --padding-sides: 5%; 
+    --max-width-content: 1120px;
+}
+
