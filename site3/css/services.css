@@ -1,0 +1,93 @@
+.detailed-services-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+
+.detailed-services-section .section-title {
+    margin-bottom: 60px;
+    font-size: 2.2rem;
+    color: var(--primary-color, #3f68a5);
+}
+
+.service-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border: 3px solid var(--primary-color, #3f68a5);
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    
+    padding: 30px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+.service-text {
+    max-width: 55%;
+    text-align: left;
+}
+
+.service-text h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color, #3f68a5);
+    margin-bottom: 10px;
+}
+
+.service-text p {
+    font-size: 1rem;
+    color: var(--color-text-light); 
+    line-height: 1.6;
+}
+
+.cta-title {
+    font-size: 1.8rem;
+    color: var(--primary-color, #3f68a5); 
+    margin-bottom: 25px;
+}
+
+.cta-btn {
+    padding: 12px 35px; 
+}
+
+.service-illustration {
+   
+    max-width: 30%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.service-illustration img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+@media (max-width: 900px) {
+    .service-card {
+        flex-direction: column; 
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .service-card.reverse-layout {
+        flex-direction: column; 
+    }
+
+    .service-text, .service-illustration {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .service-illustration {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
